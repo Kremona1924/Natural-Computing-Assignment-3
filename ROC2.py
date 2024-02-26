@@ -12,8 +12,8 @@ axs = axs.flatten()
 
 for idx, r in enumerate(r_values):
     # load the scores for the current r
-    score_0 = np.loadtxt(f'C:/Users/31613/OneDrive/Documenten/Artificial Intelligence/Semester 2/Natural Computing/Assignment 3/results_r2to6/average_results_0_r{r}.txt')
-    score_1 = np.loadtxt(f'C:/Users/31613/OneDrive/Documenten/Artificial Intelligence/Semester 2/Natural Computing/Assignment 3/results_r2to6/average_results_1_r{r}.txt')
+    score_0 = np.loadtxt(f'path/results_r2to6/average_results_0_r{r}.txt')
+    score_1 = np.loadtxt(f'path/results_r2to6/average_results_1_r{r}.txt')
     
     # labling the scores
     labels = np.append(np.zeros(len(score_0)), np.ones(len(score_1)))
